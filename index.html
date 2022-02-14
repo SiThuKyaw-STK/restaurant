@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef Moustache</title>
+    <link rel="icon" href="/mylogo/logoblack.jpg" />
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Chef Moustache(student project)" />
+    <meta property="og:image" content="/myimg/Screenshot.png" />
+    <meta
+      property="og:url"
+      content="https://lucid-swirles-8c59d6.netlify.app/"
+    />
+    <meta property="og:site_name" content="Sutdent Porject" />
+    <meta
+      property="og:description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+    repudiandae quae voluptates explicabo quisquam corrupti vel eius commodi
+    qui nihil!"
+    />
+    <link
+      rel="stylesheet"
+      href="/vendor/bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/indexStyle.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+
+    <div
+      style="z-index: 100001"
+      class="loader d-flex justify-content-center align-items-center bg-white w-100 vh-100 position-fixed"
+    >
+      <div class="">
+        <img src="/myimg/loader.svg" alt="" />
+        <h1 style="font-family: 'Rowdies', cursive">loading......</h1>
+      </div>
+    </div>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="/mylogo/logoblack.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <div class="maker d-md-block d-none"></div>
+
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="menu.html" class="">menu</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div id="banner" class="container">
+        <div
+          class="row min-vh-100 d-flex align-items-center flex-column-reverse flex-md-row"
+        >
+          <div class="col-md-6 col-12 my-5 m-0">
+            <div class="home-text">
+              <h1 class="text-uppercase m-0">lorem title</h1>
+              <p class="m-0 mt-3">
+                Lorem Ipsum is simply dummy textoftheprintingandtypesettig
+                industry. Lorem Ipsumhasbeen the industry's s Ipsum.
+              </p>
+              <button class="text-uppercase mt-4 cusBtn">read more</button>
+              <button class="text-uppercase mt-4 outline-cusBtn">
+                order now
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 mb-5 m-md-0">
+            <div class="home-img d-flex justify-content-center">
+              <img src="/myimg/foods/topsale1big.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- about section -->
+    <section id="about" class="about container-fluid">
+      <div class="container">
+        <div class="row d-flex align-items-center min-vh-100">
+          <div class="col-12" style="z-index: 1">
+            <div class="about-text text-center text-md-start">
+              <h3 class="text-uppercase" id="about-text1">about us</h3>
+              <h2 class="text-uppercase mt-2" id="about-text2">
+                Trust and quality are our atuus
+              </h2>
+              <p class="mt-3" id="about-text3">
+                Lorem Ipsum is simply dummy textoftheprintingandtypesettig
+                industry. Lorem Ipsumhasbeen the industry's s Ipsum.are our
+                atuusLorem Ipsum is simply dummy textoftheprintingandtypesettig
+                industry. Lorem Ipsumhasbeen the industry's s Ipsum.are our
+                atuusLorem Ipsum is simply dummy textoftheprintingandtypesettig
+                industry. Lorem Ipsumhasbeen the industry's s Ipsum.are our
+                atuus
+              </p>
+              <button class="cusBtn mt-4" id="about-bottom">booking now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top-sale section -->
+    <section class="top-sale container-fluid">
+      <div class="container">
+        <div class="row min-vh-100">
+          <div
+            class="text-center mt-5"
+            style="color: #17e78c; font-weight: 700"
+          >
+            <h1 id="topsale-text1" class="text-uppercase">top sale</h1>
+            <p id="topsale-text2" style="font-weight: 400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              maiores recusandae blanditiis?
+            </p>
+          </div>
+          <div class="col-md-4 col-12 text-center" id="topsale-card1">
+            <div
+              class="top-sale-content d-flex justify-content-center align-items-center"
+            >
+              <div class="">
+                <img src="/myimg/foods/topsale1.png" alt="" />
+                <h3 class="text-uppercase">title</h3>
+                <h4>$10.00</h4>
+                <div class="top-sale-btn-container">
+                  <button class="cusBtn">Pick Up</button>
+                  <button class="outline-cusBtn">Delivery</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center" id="topsale-card2">
+            <div
+              class="top-sale-content d-flex justify-content-center align-items-center"
+            >
+              <div class="">
+                <img src="/myimg/foods/topsale2.png" alt="" />
+                <h3 class="text-uppercase">title</h3>
+                <h4>$10.00</h4>
+                <div class="top-sale-btn-container">
+                  <button class="cusBtn">Pick Up</button>
+                  <button class="outline-cusBtn">Delivery</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center" id="topsale-card3">
+            <div
+              class="top-sale-content d-flex justify-content-center align-items-center"
+            >
+              <div class="">
+                <img src="/myimg/foods/topsale3.png" alt="" />
+                <h3 class="text-uppercase">title</h3>
+                <h4>$10.00</h4>
+                <div class="top-sale-btn-container">
+                  <button class="cusBtn">Pick Up</button>
+                  <button class="outline-cusBtn">Delivery</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-3">
+            <div class="go-to-menu d-flex justify-content-end">
+              <a href="menu.html" class="text-uppercase">go to menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our chefs -->
+    <section id="chefs" class="chefs container-fluid">
+      <div class="container">
+        <div class="row min-vh-100 d-flex align-items-center">
+          <div class="chefs-header-title text-center mt-5">
+            <h1 class="text-uppercase" id="chefs-text1">our chefs</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              maiores recusandae blanditiis?
+            </p>
+          </div>
+          <div class="col-md-4 col-12 chefs-container mt-2 m-md-0">
+            <div class="cards">
+              <div class="imgBx">
+                <img src="/myimg/chefs/chef1.webp" alt="" />
+              </div>
+              <div class="content">
+                <div class="detalis">
+                  <h2>Thomas.<br /><span>Head Chef (Chef de Cuisine)</span></h2>
+                  <ul class="sci">
+                    <li>
+                      <a href="#" target=""
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 chefs-container mt-2 m-md-0">
+            <div class="cards">
+              <div class="imgBx">
+                <img src="/myimg/chefs/chef2.webp" alt="" />
+              </div>
+              <div class="content">
+                <div class="detalis">
+                  <h2>Henry.<br /><span>Junior Chef (Commis Chef)</span></h2>
+                  <ul class="sci">
+                    <li>
+                      <a href="#" target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 chefs-container mt-2 m-md-0">
+            <div class="cards">
+              <div class="imgBx">
+                <img src="/myimg/chefs/chef3.webp" alt="" />
+              </div>
+              <div class="content">
+                <div class="detalis">
+                  <h2>Jacob.<br /><span>Deputy Chef (Sous Chef)</span></h2>
+                  <ul class="sci">
+                    <li>
+                      <a href="#" target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+    <section id="services" class="services container-fluid">
+      <div class="container">
+        <div class="row min-vh-100 d-flex">
+          <div
+            id="services-text"
+            class="text-center mt-5"
+            style="color: #00000010; font-weight: 700"
+          >
+            <h1 class="text-uppercase">services</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloribus, dicta!
+            </p>
+          </div>
+          <div class="col-md-4 col-12">
+            <div id="services-card1" class="services-content">
+              <div class="p-4">
+                <img
+                  id="services-img1"
+                  src="/myimg/services_svg/delivery-man.png"
+                  alt=""
+                />
+                <h3 class="text-uppercase mt-3">delivery service</h3>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                  blanditiis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div id="services-card2" class="services-content">
+              <div class="p-4">
+                <img
+                  id="services-img2"
+                  src="/myimg/services_svg/clock.png"
+                  alt=""
+                />
+                <h3 class="text-uppercase mt-3">fast order</h3>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                  blanditiis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div id="services-card3" class="services-content">
+              <div class="p-4">
+                <img
+                  id="services-img3"
+                  src="/myimg/services_svg/appreciation.png"
+                  alt=""
+                />
+                <h3 class="text-uppercase mt-3">enjoy a taste</h3>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                  blanditiis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feed back -->
+    <section class="feed-back container-fluid">
+      <div class="container">
+        <div class="row min-vh-100">
+          <div
+            id="feedback-text"
+            style="color: #3e4a61"
+            class="text-center mt-5"
+          >
+            <h1 class="text-uppercase" style="font-weight: 700">
+              what they say
+            </h1>
+            <p style="font-weight: 700">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloribus, dicta!
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="feed-back-container">
+              <div class="card">
+                <div class="imgBx">
+                  <img src="/myimg/customers/customer1.webp" alt="" />
+                </div>
+                <div class="content">
+                  <div class="">
+                    <h3>Freya</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum, molestias. Aliquam quibusdam reiciendis tempore
+                      repudiandae dolores, suscipit veniam unde consequatur?
+                    </p>
+                    <ul class="sci">
+                      <li>
+                        <a href="#" target=""
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feed-back-container">
+              <div class="card">
+                <div class="imgBx">
+                  <img src="/myimg/customers/customer2.webp" alt="" />
+                </div>
+                <div class="content">
+                  <div class="">
+                    <h3>Alfie</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum, molestias. Aliquam quibusdam reiciendis tempore
+                      repudiandae dolores, suscipit veniam unde consequatur?
+                    </p>
+                    <ul class="sci">
+                      <li>
+                        <a href="#" target=""
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feed-back-container">
+              <div class="card">
+                <div class="imgBx">
+                  <img src="/myimg/customers/customer3.webp" alt="" />
+                </div>
+                <div class="content">
+                  <div class="">
+                    <h3>William</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum, molestias. Aliquam quibusdam reiciendis tempore
+                      repudiandae dolores, suscipit veniam unde consequatur?
+                    </p>
+                    <ul class="sci">
+                      <li>
+                        <a href="#" target=""
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feed-back-container">
+              <div class="card">
+                <div class="imgBx">
+                  <img src="/myimg/customers/customer4.webp" alt="" />
+                </div>
+                <div class="content">
+                  <div class="">
+                    <h3>Grace</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum, molestias. Aliquam quibusdam reiciendis tempore
+                      repudiandae dolores, suscipit veniam unde consequatur?
+                    </p>
+                    <ul class="sci">
+                      <li>
+                        <a href="#" target=""
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="contact container-fluid">
+      <div class="container">
+        <div style="min-height: 55vh" class="row d-flex align-items-center">
+          <div class="col-lg-3 col-md-6 col-12 mt-5 m-md-0">
+            <div class="">
+              <img src="/mylogo/LogoMakr-6lh8NN.png" alt="" />
+              <p class="text-white mt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Cupiditate, animi?
+              </p>
+              <h3 class="text-uppercase text-white">follow us:</h3>
+              <a href=""><img src="/mylogo/facebook.png" alt="" /></a>
+              <a href=""><img src="/mylogo/twitter.png" alt="" /></a>
+              <a href=""><img src="/mylogo/google.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 mt-5 m-md-0">
+            <div class="contact-useful-links">
+              <h5 class="text-white text-uppercase">Useful links</h5>
+              <p><a href="#blog" class="">home</a></p>
+              <p><a href="#blog" class="">about</a></p>
+              <p><a href="#blog" class="">services</a></p>
+              <p><a href="#blog" class="">menu</a></p>
+              <p><a href="#blog" class="">contact</a></p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-12 mt-5 m-md-0"
+            style="height: 260px"
+          >
+            <div class="contact-info">
+              <h5 class="text-white text-uppercase">contact info</h5>
+              <div class="d-flex align-items-center">
+                <i class="fas fa-envelope text-primary"></i>
+                <p class="ml-3 text-white mb-0">example@yahoo.com</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fas fa-phone-alt text-primary"></i>
+                <p class="ml-3 text-white mb-0">+0 320 422 4254</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fas fa-map-marker-alt text-primary"></i>
+                <p class="ml-3 text-white mb-0">Main Str Chicago Ilinois</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-5 m-md-0">
+            <div class="map">
+              <iframe
+                style="border-radius: 20px"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244399.13550912688!2d96.04148795866617!3d16.839423590591785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2z4YCb4YCU4YC64YCA4YCv4YCU4YC6LCDhgJnhgLzhgJThgLrhgJnhgKw!5e0!3m2!1smy!2ssg!4v1644459475854!5m2!1smy!2ssg"
+                width="350"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <div class="copyRight">
+            <h5 class="text-white text-center mt-5">
+              Copyright ©2020 All rights reserved | This template is made with
+              love by
+              <a target="_blank" href="https://www.facebook.com/sithi.kyaw.3"
+                >SiThuKyaw</a
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up text-white"></i>
+    </a>
+    <!-- javascript -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/vendor/gsap-public/minified/gsap.min.js"></script>
+    <script src="/vendor/gsap-public/minified/ScrollTrigger.min.js"></script>
+
+    <script src="/js/index.js"></script>
+
+  </body>
+</html>
